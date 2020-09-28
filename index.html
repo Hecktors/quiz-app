@@ -4,37 +4,57 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz App</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
-    <header class="header">
-      <h1>Quiz-App</h1>
-    </header>
-    <main class="main">
-      <section class="section quiz">
-        <div src="" alt="" class="img-bookmark"></div>
-        <h2 class="quiz-header">question</h2>
-        <p class="question">
-          Lorem ipsum dolor sit amet consectetur adipisicing?
-        </p>
-        <button class="btn btn-toggle">show answer</button>
-        <p class="answer hide">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, earum!
-        </p>
-        <div class="tag-container">
-          <span class="tag">Stadt</span>
-          <span class="tag">Land</span>
-          <span class="tag">Fluss</span>
-          <span class="tag">Salzgebäck</span>
-        </div>
-      </section>
-    </main>
-    <footer class="footer">
-      <nav>
-        <a href="index.html" class="nav-link active"></a>
-        <a href="bookmarks.html" class="nav-link"></a>
-        <a href="create.html" class="nav-link"></a>
-        <a href="profile.html" class="nav-link"></a>
-      </nav>
-    </footer>
+    <div class="app">
+      <header class="header">
+        <h1>quiz-app</h1>
+      </header>
+      <main class="main">
+        <section class="section quiz">
+          <img src="/img/bookmark.png" alt="" class="bookmark-img" />
+          <h2 class="quiz-header">question</h2>
+          <p class="question">
+            Lorem ipsum dolor sit amet consectetur adipisicing?
+          </p>
+          <button class="btn btn-toggle">show answer</button>
+          <p class="answer hide">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius,
+            earum!
+          </p>
+          <div class="tag-container">
+            <span class="tag">Stadt</span>
+            <span class="tag">Land</span>
+            <span class="tag">Fluss</span>
+            <span class="tag">Salzgebäck</span>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <nav class="nav">
+          <a href="index.html" class="nav-link">
+            <img class="nav-img" src="/img/home_filled.svg" alt="home" />
+          </a>
+          <a href="bookmarks.html" class="nav-link">
+            <img class="nav-img" src="/img/bookmark.svg" alt="bookmark" />
+          </a>
+          <a href="create.html" class="nav-link">
+            <img class="nav-img" src="/img/create.svg" alt="create" />
+          </a>
+          <a href="profile.html" class="nav-link">
+            <img class="nav-img" src="/img/profile.svg" alt="profile" />
+          </a>
+        </nav>
+      </footer>
+    </div>
   </body>
 </html>

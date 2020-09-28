@@ -4,36 +4,51 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz App</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
-    <header class="header">
-      <h1>profile</h1>
-    </header>
-    <main class="main">
-      <img src="" alt="profile image" class="profile-img" />
-      <div class="profile-name">John Doe</div>
-      <p class="profile-description">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius quia
-        voluptates velit sit nam. Expedita et unde maiores vero saepe.
-      </p>
-      <label class="label">
-        skills
-        <div class="tag-container">
-          <span class="tag">Stadt</span>
-          <span class="tag">Land</span>
-          <span class="tag">Fluss</span>
-          <span class="tag">Salzgebäck</span>
-        </div>
-      </label>
-      <button class="btn btn-logout">logout</button>
-    </main>
-    <footer class="footer">
-      <nav>
-        <a href="index.html" class="nav-link"></a>
-        <a href="bookmarks.html" class="nav-link"></a>
-        <a href="create.html" class="nav-link"></a>
-        <a href="profile.html" class="nav-link active"></a>
-      </nav>
-    </footer>
+    <div class="app">
+      <header class="header">
+        <h1>profile</h1>
+      </header>
+      <main class="main">
+        <img src="" alt="profile image" class="profile-img" />
+        <div class="profile-name">John Doe</div>
+        <p class="profile-description">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius quia
+          voluptates velit sit nam. Expedita et unde maiores vero saepe.
+        </p>
+        <label class="label">
+          skills
+          <div class="tag-container">
+            <span class="tag">Stadt</span>
+            <span class="tag">Land</span>
+            <span class="tag">Fluss</span>
+            <span class="tag">Salzgebäck</span>
+          </div>
+        </label>
+        <button class="btn btn-logout">logout</button>
+      </main>
+      <footer class="footer">
+        <nav class="nav">
+          <a href="index.html" class="nav-link">
+            <img class="nav-img" src="/img/home.svg" alt="home" />
+          </a>
+          <a href="bookmarks.html" class="nav-link">
+            <img class="nav-img" src="/img/bookmark.svg" alt="bookmark" />
+          </a>
+          <a href="create.html" class="nav-link">
+            <img class="nav-img" src="/img/create.svg" alt="create" />
+          </a>
+          <a href="profile.html" class="nav-link">
+            <img class="nav-img" src="/img/profile_filled.svg" alt="profile" />
+          </a>
+        </nav>
+      </footer>
+    </div>
   </body>
 </html>
