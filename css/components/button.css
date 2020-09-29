@@ -4,6 +4,21 @@
   border: none;
   border-radius: 20px;
   font-size: 0.9rem;
-  color: #fff;
-  background-color: var(--bg-color-btn);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.btn-toggle {
+  color: var(--color-btn-toggle);
+  background-color: var(--bg-color-btn-toggle);
+}
+
+.btn-submit {
+  color: var(--color-btn-submit);
+  background-color: var(--bg-color-btn-submit);
+}
+
+.btn-logout {
+  color: var(--color-btn-logout);
+  background-color: var(--bg-color-btn-logout);
 }

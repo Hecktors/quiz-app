@@ -2,7 +2,7 @@
   display: grid;
   grid-auto-flow: column;
   grid-template-columns: repeat(4, 1fr);
-  background-color: var(--bg-color2);
+  background-color: var(--bg-color-nav);
 }
 
 .nav a {
@@ -20,5 +20,6 @@
 }
 
 .active {
-  background-color: #fff;
+  pointer-events: none;
+  background-color: var(--bg-color-main);
 }
