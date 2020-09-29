@@ -1,6 +1,7 @@
 .tag {
   font-size: 1rem;
-  padding: 3px 5px;
-  background-color: #ccc;
-  border-radius: 3px;
+  padding: 3px 10px;
+  border-radius: 5px;
+  color: var(--color-tag);
+  background-color: var(--bg-color-tag);
 }

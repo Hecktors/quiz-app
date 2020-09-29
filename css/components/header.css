@@ -1,9 +1,5 @@
-.header {
-  position: relative;
-  background: hotpink;
-  color: white;
-}
-.header:after {
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+/* .header:after {
   content: '';
   position: absolute;
   top: 100%;
@@ -11,16 +7,19 @@
   left: 0;
   width: 100%;
   background-image: linear-gradient(rgba(70, 0, 30, 0.5), transparent);
-}
+} */
 
 .header {
   display: grid;
   place-items: center;
-  background-color: var(--bg-color);
+  background-color: var(--bg-color-header);
 }
 
 .header__title {
+  font-family: 'Bangers', cursive;
   font-size: 1.8rem;
+  letter-spacing: 3px;
   text-transform: uppercase;
   color: #fff;
+  white-space: nowrap;
 }
