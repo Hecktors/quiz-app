@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -15,46 +15,43 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <div class="app">
-      <header class="header">
-        <h1>quiz-app</h1>
-      </header>
-      <main class="main">
-        <section class="section quiz">
-          <img src="./img/bookmark.png" alt="" class="bookmark-img" />
-          <h2 class="quiz-header">question</h2>
-          <p class="question">
-            Lorem ipsum dolor sit amet consectetur adipisicing?
-          </p>
-          <button class="btn btn-toggle">show answer</button>
-          <p class="answer hide">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius,
-            earum!
-          </p>
-          <div class="tag-container">
-            <span class="tag">Stadt</span>
-            <span class="tag">Land</span>
-            <span class="tag">Fluss</span>
-            <span class="tag">Salzgebäck</span>
-          </div>
-        </section>
-      </main>
-      <footer class="footer">
-        <nav class="nav">
-          <a href="index.html" class="nav-link">
-            <img class="nav-img" src="./img/home_filled.svg" alt="home" />
-          </a>
-          <a href="bookmarks.html" class="nav-link">
-            <img class="nav-img" src="./img/bookmark.svg" alt="bookmark" />
-          </a>
-          <a href="create.html" class="nav-link">
-            <img class="nav-img" src="./img/create.svg" alt="create" />
-          </a>
-          <a href="profile.html" class="nav-link">
-            <img class="nav-img" src="./img/profile.svg" alt="profile" />
-          </a>
-        </nav>
-      </footer>
-    </div>
+    <header class="header">
+      <h1 class="header__title">quiz-app</h1>
+    </header>
+    <main class="scrolling card-grid">
+      <div class="card m-4">
+        <img src="./img/bookmark.png" alt="" class="bookmark-img" />
+        <h2 class="card__header">question:</h2>
+        <p class="card__question">
+          Lorem ipsum dolor sit amet consectetur adipisicing?
+        </p>
+        <button class="btn m-auto my-3 btn-toggle">show answer</button>
+        <p class="card__answer hide">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, earum!
+        </p>
+        <div class="tag-container mt-3">
+          <span class="tag mr-1">Stadt</span>
+          <span class="tag mr-1">Land</span>
+          <span class="tag mr-1">Fluss</span>
+          <span class="tag mr-1">Salzgebäck</span>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <nav class="nav">
+        <a href="index.html" class="nav__link">
+          <img class="navimg" src="./img/home_filled.svg" alt="home" />
+        </a>
+        <a href="bookmarks.html" class="nav__link">
+          <img class="navimg" src="./img/bookmark.svg" alt="bookmark" />
+        </a>
+        <a href="create.html" class="nav__link">
+          <img class="navimg" src="./img/create.svg" alt="create" />
+        </a>
+        <a href="profile.html" class="nav__link">
+          <img class="navimg" src="./img/profile.svg" alt="profile" />
+        </a>
+      </nav>
+    </footer>
   </body>
 </html>

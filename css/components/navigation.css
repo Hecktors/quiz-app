@@ -1,0 +1,29 @@
+.nav {
+  display: grid;
+  grid-auto-flow: column;
+  background: hotpink;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav {
+  height: 100%;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.nav__link {
+  display: grid;
+  place-items: center;
+  padding: 5px;
+}
+
+.nav-img {
+  width: 50%;
+  min-width: 30px;
+  max-width: 40px;
+}

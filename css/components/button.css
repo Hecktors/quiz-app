@@ -1,0 +1,9 @@
+.btn {
+  display: block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  color: #fff;
+  background-color: var(--bg-color-btn);
+}
