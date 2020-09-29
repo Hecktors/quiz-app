@@ -11,50 +11,41 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <div class="app">
-      <header class="header">
-        <h1>bookmarks</h1>
-      </header>
-      <main class="main">
-        <section class="section m-20 quiz">
-          <img src="./img/bookmark_filled.png" alt="" class="bookmark-img" />
-          <h2 class="quiz-header">question</h2>
-          <p class="question">
-            Lorem ipsum dolor sit amet consectetur adipisicing?
-          </p>
-          <button class="btn btn-toggle">show answer</button>
-          <p class="answer hide">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius,
-            earum!
-          </p>
-          <div class="tag-container">
-            <span class="tag">Stadt</span>
-            <span class="tag">Land</span>
-            <span class="tag">Fluss</span>
-            <span class="tag">Salzgebäck</span>
-          </div>
-        </section>
-      </main>
-      <footer class="footer">
-        <nav class="nav">
-          <a href="index.html" class="nav-link">
-            <img class="nav-img" src="./img/home.svg" alt="home" />
-          </a>
-          <a href="bookmarks.html" class="nav-link">
-            <img
-              class="nav-img"
-              src="./img/bookmark_filled.svg"
-              alt="bookmark"
-            />
-          </a>
-          <a href="create.html" class="nav-link">
-            <img class="nav-img" src="./img/create.svg" alt="create" />
-          </a>
-          <a href="profile.html" class="nav-link">
-            <img class="nav-img" src="./img/profile.svg" alt="profile" />
-          </a>
-        </nav>
-      </footer>
-    </div>
+    <header class="header">
+      <h1 class="header__title">bookmarks</h1>
+    </header>
+    <main class="scrolling card-grid">
+      <section class="card">
+        <img src="./img/bookmark_filled.png" alt="" class="bookmark-img" />
+        <h2 class="card__header">question:</h2>
+        <p class="card__question">
+          Lorem ipsum dolor sit amet consectetur adipisicing?
+        </p>
+        <button class="btn m-auto my-3 btn-toggle">show answer</button>
+        <p class="card__answer hide">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, earum!
+        </p>
+        <div class="tag-container mt-3">
+          <span class="tag mr-1">Stadt</span>
+          <span class="tag mr-1">Land</span>
+          <span class="tag mr-1">Fluss</span>
+          <span class="tag mr-1">Salzgebäck</span>
+        </div>
+      </section>
+    </main>
+    <nav class="nav">
+      <a href="index.html">
+        <img class="nav-img" src="./img/home.svg" alt="home" />
+      </a>
+      <a href="bookmarks.html" class="active">
+        <img class="nav-img" src="./img/bookmark.svg" alt="bookmark" />
+      </a>
+      <a href="create.html">
+        <img class="nav-img" src="./img/create.svg" alt="create" />
+      </a>
+      <a href="profile.html">
+        <img class="nav-img" src="./img/profile.svg" alt="profile" />
+      </a>
+    </nav>
   </body>
 </html>

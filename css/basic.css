@@ -4,7 +4,7 @@ html {
 
 body {
   display: grid;
-  grid-template-rows: 48px auto 48px;
+  grid-template-rows: 60px auto 60px;
   max-width: 600px;
   position: fixed;
   left: 0;
@@ -19,13 +19,6 @@ body {
 * {
   box-sizing: border-box;
   margin: 0;
-}
-body {
-  height: 100vh;
-  font-size: 112.5%;
-  font-family: 'Open Sans', sans-serif;
-  color: #212121;
-  background-color: #333;
 }
 
 h2 {
