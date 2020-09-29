@@ -11,44 +11,40 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <div class="app">
-      <header class="header">
-        <h1>profile</h1>
-      </header>
-      <main class="main">
-        <img src="" alt="profile image" class="profile-img" />
-        <div class="profile-name">John Doe</div>
-        <p class="profile-description">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius quia
-          voluptates velit sit nam. Expedita et unde maiores vero saepe.
-        </p>
-        <label class="label">
-          skills
-          <div class="tag-container">
-            <span class="tag">Stadt</span>
-            <span class="tag">Land</span>
-            <span class="tag">Fluss</span>
-            <span class="tag">Salzgebäck</span>
-          </div>
-        </label>
-        <button class="btn btn-logout">logout</button>
-      </main>
-      <footer class="footer">
-        <nav class="nav">
-          <a href="index.html" class="nav-link">
-            <img class="nav-img" src="./img/home.svg" alt="home" />
-          </a>
-          <a href="bookmarks.html" class="nav-link">
-            <img class="nav-img" src="./img/bookmark.svg" alt="bookmark" />
-          </a>
-          <a href="create.html" class="nav-link">
-            <img class="nav-img" src="./img/create.svg" alt="create" />
-          </a>
-          <a href="profile.html" class="nav-link">
-            <img class="nav-img" src="./img/profile_filled.svg" alt="profile" />
-          </a>
-        </nav>
-      </footer>
-    </div>
+    <header class="header">
+      <h1 class="header__title">bookmarks</h1>
+    </header>
+    <main class="profile">
+      <img src="" alt="profile image" class="profile-img" />
+      <div class="profile-name">John Doe</div>
+      <p class="profile-description">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius quia
+        voluptates velit sit nam. Expedita et unde maiores vero saepe.
+      </p>
+      <label class="label">
+        skills
+        <div class="tag-container">
+          <span class="tag">Stadt</span>
+          <span class="tag">Land</span>
+          <span class="tag">Fluss</span>
+          <span class="tag">Salzgebäck</span>
+        </div>
+      </label>
+      <button class="btn btn-logout">logout</button>
+    </main>
+    <nav class="nav">
+      <a href="index.html">
+        <img class="nav-img" src="./img/home.svg" alt="home" />
+      </a>
+      <a href="bookmarks.html">
+        <img class="nav-img" src="./img/bookmark.svg" alt="bookmark" />
+      </a>
+      <a href="create.html">
+        <img class="nav-img" src="./img/create.svg" alt="create" />
+      </a>
+      <a href="profile.html" class="active">
+        <img class="nav-img" src="./img/profile.svg" alt="profile" />
+      </a>
+    </nav>
   </body>
 </html>

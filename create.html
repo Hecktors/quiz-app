@@ -11,61 +11,57 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <div class="app">
-      <header class="header">
-        <h1>create</h1>
-      </header>
-      <main class="main">
-        <form>
-          <label class="label">
-            add question
-            <textarea
-              class="question-textarea"
-              name="question"
-              id="question"
-              cols="30"
-              rows="3"
-            ></textarea>
-          </label>
-          <label class="label">
-            add answer
-            <textarea
-              class="answer-textarea"
-              name="answer"
-              id="answer"
-              cols="30"
-              rows="3"
-            ></textarea>
-          </label>
-          <label class="label">
-            add tags divided my comma
-            <input
-              type="text"
-              class="tags-input"
-              name="tags"
-              id="tags"
-              placeholder="tag1, tag2, tag3"
-            />
-          </label>
-          <button class="btn btn-submit">submit</button>
-        </form>
-      </main>
-      <footer class="footer">
-        <nav class="nav">
-          <a href="index.html" class="nav-link">
-            <img class="nav-img" src="./img/home.svg" alt="home" />
-          </a>
-          <a href="bookmarks.html" class="nav-link">
-            <img class="nav-img" src="./img/bookmark.svg" alt="bookmark" />
-          </a>
-          <a href="create.html" class="nav-link">
-            <img class="nav-img" src="./img/create_filled.svg" alt="create" />
-          </a>
-          <a href="profile.html" class="nav-link">
-            <img class="nav-img" src="./img/profile.svg" alt="profile" />
-          </a>
-        </nav>
-      </footer>
-    </div>
+    <header class="header">
+      <h1 class="header__title">create</h1>
+    </header>
+    <main class="create">
+      <form>
+        <label class="label">
+          add question
+          <textarea
+            class="question-textarea"
+            name="question"
+            id="question"
+            cols="30"
+            rows="3"
+          ></textarea>
+        </label>
+        <label class="label">
+          add answer
+          <textarea
+            class="answer-textarea"
+            name="answer"
+            id="answer"
+            cols="30"
+            rows="3"
+          ></textarea>
+        </label>
+        <label class="label">
+          add tags divided my comma
+          <input
+            type="text"
+            class="tags-input"
+            name="tags"
+            id="tags"
+            placeholder="tag1, tag2, tag3"
+          />
+        </label>
+        <button class="btn btn-submit">submit</button>
+      </form>
+    </main>
+    <nav class="nav">
+      <a href="index.html">
+        <img class="nav-img" src="./img/home.svg" alt="home" />
+      </a>
+      <a href="bookmarks.html">
+        <img class="nav-img" src="./img/bookmark.svg" alt="bookmark" />
+      </a>
+      <a href="create.html" class="active">
+        <img class="nav-img" src="./img/create.svg" alt="create" />
+      </a>
+      <a href="profile.html">
+        <img class="nav-img" src="./img/profile.svg" alt="profile" />
+      </a>
+    </nav>
   </body>
 </html>
