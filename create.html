@@ -15,42 +15,38 @@
       <h1 class="header__title">create</h1>
     </header>
     <main class="create">
-      <form>
-        <div class="form-group">
-          <label class="label">
-            add question
-            <textarea
-              class="question-textarea"
-              name="question"
-              id="question"
-              cols="30"
-              rows="3"
-            ></textarea>
-          </label>
+      <form class="form">
+        <div class="form__group">
+          <label for="question" class="form__label"> add question</label>
+          <textarea
+            class="form__textarea bd bd-rs"
+            name="question"
+            id="question"
+            cols="30"
+            rows="3"
+          ></textarea>
         </div>
-        <div class="form-group">
-          <label class="label">
-            add answer
-            <textarea
-              class="answer-textarea"
-              name="answer"
-              id="answer"
-              cols="30"
-              rows="3"
-            ></textarea>
-          </label>
+        <div class="form__group">
+          <label for="answer" class="form__label"> add answer</label>
+          <textarea
+            class="form__textarea bd bd-rs"
+            name="answer"
+            id="answer"
+            cols="30"
+            rows="3"
+          ></textarea>
         </div>
-        <div class="form-group">
-          <label class="label">
-            add tags divided my comma
-            <input
-              type="text"
-              class="tags-input"
-              name="tags"
-              id="tags"
-              placeholder="tag1, tag2, tag3"
-            />
-          </label>
+        <div class="form__group">
+          <label for="tags" class="form__label">
+            add tags divided my comma</label
+          >
+          <input
+            type="text"
+            class="form__input bd bd-rs"
+            name="tags"
+            id="tags"
+            placeholder="tag1, tag2, tag3"
+          />
         </div>
         <button class="btn btn-submit">submit</button>
       </form>
