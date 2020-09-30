@@ -2,16 +2,13 @@
   display: grid;
   grid-auto-flow: column;
   grid-template-columns: repeat(4, 1fr);
-  background-color: var(--bg-color-nav);
 }
 
 .nav a {
+  background-color: var(--bg-color-nav);
   display: grid;
   place-items: center;
   padding: 5px;
-}
-
-.nav__link {
 }
 
 .nav-img {
@@ -19,7 +16,7 @@
   width: 30px;
 }
 
-.active {
+a.active {
   pointer-events: none;
-  background-color: var(--bg-color-main);
+  background-color: transparent;
 }

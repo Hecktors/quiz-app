@@ -1,9 +1,10 @@
 :root {
   --color: #333;
+  --bg-color: #f6ffad;
 
   --bg-color-header: #363e8b;
   --bg-color-main: #f6ffad;
-  --bg-color-nav: #ccd392;
+  --bg-color-nav: rgba(0, 0, 0, 0.3);
   --bg-color-card: #fff;
 
   --color-btn-toggle: #2f855a;

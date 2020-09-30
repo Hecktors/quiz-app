@@ -20,9 +20,10 @@ body {
   font-size: 112.5%;
   font-family: 'Nunito', sans-serif;
   color: var(--color);
+  background-color: var(--bg-color);
 }
 main {
-  background-color: var(--bg-color-main);
+  /* background-color: var(--bg-color-main); */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
