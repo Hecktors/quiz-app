@@ -10,15 +10,15 @@
 /* .card-grid > *:last-child {
   position: relative;
 } */
-.card-grid > *:last-child:after {
-  /* content: '';
+/* .card-grid > *:last-child:after {
+  content: '';
   display: block;
   position: absolute;
   top: 100%;
   left: 0;
   width: 100%;
-  height: 20px; */
-}
+  height: 20px;
+} */
 
 .card {
   position: relative;

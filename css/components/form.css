@@ -27,7 +27,7 @@
 .form__input,
 .form__textarea {
   font-family: inherit;
-  font-size: inherit;
+  /* font-size: inherit; */
 }
 
 .form__input:focus,
