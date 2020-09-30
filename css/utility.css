@@ -7,31 +7,6 @@
   overflow-y: scroll;
 }
 
-.m-auto {
-  margin: auto;
-}
-
-.my-3 {
-  margin-top: 1.5rem;
-  margin-bottom: 1rem;
-}
-
-/* .m-3 {
-  margin: 1rem;
-} */
-
-.m-4 {
-  margin: 2rem;
-}
-
-.mt-3 {
-  margin-top: 1.5rem;
-}
-
-.mr-1 {
-  margin-right: 0.25rem;
-}
-
 .hide {
   visibility: hidden;
 }
@@ -47,4 +22,46 @@
 .bx-sh {
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
     0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+/* 
+  1 -> 0.25rem
+  2 -> 0.5rem
+  3 -> 1rem
+  4 -> 1.5rem
+  5 -> 2rem
+  6 -> 5rem
+*/
+
+.mx-1 {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+.my-4 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-5 {
+  margin-bottom: 2rem;
+}
+
+.mt-4 {
+  margin-top: 1.5rem;
 }

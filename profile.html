@@ -14,23 +14,29 @@
     <header class="header">
       <h1 class="header__title">profile</h1>
     </header>
-    <main class="profile">
-      <img src="" alt="profile image" class="profile-img" />
-      <div class="profile-name">John Doe</div>
+    <main class="main profile">
+      <div class="profile__grid">
+        <div class="profile__img-container">
+          <img
+            src="https://i.pinimg.com/originals/23/de/70/23de7059d5c9ded5838ee1f70b946852.jpg"
+            alt="profile image"
+            class="profile__img"
+          />
+        </div>
+        <div class="profile__name">John Doe</div>
+      </div>
       <p class="profile-description">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius quia
         voluptates velit sit nam. Expedita et unde maiores vero saepe.
       </p>
-      <label class="label">
-        skills
-        <div class="tag-container">
-          <span class="tag">Stadt</span>
-          <span class="tag">Land</span>
-          <span class="tag">Fluss</span>
-          <span class="tag">Salzgebäck</span>
-        </div>
-      </label>
-      <button class="btn btn-logout">logout</button>
+      <div class="w-100">
+        <h4 class="mb-2">skills</h4>
+        <span class="tag">Stadt</span>
+        <span class="tag">Land</span>
+        <span class="tag">Fluss</span>
+        <span class="tag">Salzgebäck</span>
+      </div>
+      <button class="btn btn--logout my-4">logout</button>
     </main>
     <nav class="nav">
       <a href="index.html">

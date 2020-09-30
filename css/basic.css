@@ -23,6 +23,11 @@ body {
 }
 main {
   background-color: var(--bg-color-main);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
 }
 
 p {
@@ -33,4 +38,9 @@ a,
 button {
   cursor: pointer;
   outline: none;
+}
+
+h4 {
+  text-transform: uppercase;
+  font-size: 1rem;
 }
