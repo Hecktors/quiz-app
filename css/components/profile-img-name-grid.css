@@ -3,7 +3,7 @@
   display: grid;
   place-items: center;
   grid-template-columns: repeat(2, 50%);
-  grid-template-rows: 160px;
+  grid-template-rows: 128px;
 }
 
 .profile__img-container {
