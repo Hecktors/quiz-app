@@ -2,7 +2,7 @@
   max-width: 100%;
   display: grid;
   align-content: start;
-  gap: 20px;
+  gap: 30px;
   padding: 20px 15px;
 }
 
@@ -30,12 +30,14 @@
 .bookmark-img {
   position: absolute;
   z-index: 9;
-  right: 20px;
-  top: -10px;
-  width: 24px;
+  right: 12px;
+  top: -12px;
+  width: 32px;
 }
 
-.card__header {
-  text-transform: uppercase;
+.card__label {
+  font-family: 'Bangers', cursive;
+  letter-spacing: 1.5px;
+  text-transform: capitalize;
   font-size: 1.2rem;
 }

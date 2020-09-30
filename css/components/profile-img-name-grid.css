@@ -3,18 +3,18 @@
   display: grid;
   place-items: center;
   grid-template-columns: repeat(2, 50%);
-  grid-template-rows: 190px;
+  grid-template-rows: 160px;
 }
 
 .profile__img-container {
-  width: 150px;
-  height: 150px;
+  width: 128px;
+  height: 128px;
   border-radius: 100%;
   overflow: hidden;
   background-color: #fff;
 }
 .profile__img {
-  width: 150%;
+  width: 125%;
 }
 
 .profile__name {
