@@ -1,7 +1,9 @@
 .tag {
-  font-size: 1rem;
-  padding: 3px 10px;
+  font-size: 0.8rem;
+  padding: 2px 8px;
   border-radius: 5px;
+  font-weight: bold;
   color: var(--color-tag);
-  background-color: var(--bg-color-tag);
+  border: 1px solid var(--color-tag);
+  /* background-color: var(--bg-color-tag); */
 }

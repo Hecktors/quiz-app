@@ -5,7 +5,7 @@
   --bg-color-header: #363e8b;
   --bg-color-main: #f6ffad;
   --bg-color-nav: rgba(0, 0, 0, 0.3);
-  --bg-color-card: #fff;
+  --bg-color-card: #fefffa;
 
   --color-btn-toggle: #2f855a;
   --bg-color-btn-toggle: #c6f6d5;
@@ -16,6 +16,5 @@
   --color-btn-submit: #2b6cb0;
   --bg-color-btn-submit: #bee3f8;
 
-  --color-tag: #c05621;
-  --bg-color-tag: #feebc8;
+  --color-tag: #ff8606;
 }
