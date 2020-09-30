@@ -1,0 +1,23 @@
+.profile__grid {
+  width: 100%;
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: 190px;
+}
+
+.profile__img-container {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  overflow: hidden;
+  background-color: #fff;
+}
+.profile__img {
+  width: 150%;
+}
+
+.profile__name {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
