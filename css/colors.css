@@ -1,20 +1,25 @@
 :root {
+  /********** BODY **********/
   --color: #333;
   --bg-color: #f6ffad;
 
+  /********** HEADER **********/
   --bg-color-header: #363e8b;
-  --bg-color-main: #f6ffad;
-  --bg-color-nav: rgba(0, 0, 0, 0.3);
+
+  /********** CARD **********/
   --bg-color-card: #fefffa;
 
-  --color-btn-toggle: #2f855a;
-  --bg-color-btn-toggle: #c6f6d5;
+  /********** NAV LINK ACTIVE **********/
+  --bg-color-active: rgba(0, 0, 0, 0.3);
 
-  --color-btn-logout: #c53030;
-  --bg-color-btn-logout: #fed7d7;
-
-  --color-btn-submit: #2b6cb0;
-  --bg-color-btn-submit: #bee3f8;
-
+  /********** TAGS **********/
   --color-tag: #ff8606;
+
+  /********** BUTTONS **********/
+  --color-btn-toggle: #2f855a;
+  --color-btn-logout: #c53030;
+  --color-btn-submit: #2b6cb0;
+  --bg-color-btn-toggle: #c6f6d5;
+  --bg-color-btn-logout: #fed7d7;
+  --bg-color-btn-submit: #bee3f8;
 }
