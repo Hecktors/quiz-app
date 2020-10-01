@@ -1,5 +1,5 @@
 {
-  "name": "quiz-app",
+  "name": "quizzz",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/Hecktors/quiz-app/issues"
   },
-  "homepage": "https://github.com/Hecktors/quiz-app#readme",
+  "homepage": "https://quizzz.vercel.app",
   "dependencies": {
     "parcel-bundler": "^1.12.4"
   }
