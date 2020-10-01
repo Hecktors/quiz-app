@@ -1,0 +1,25 @@
+{
+  "name": "quiz-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hecktors/quiz-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hecktors/quiz-app/issues"
+  },
+  "homepage": "https://github.com/Hecktors/quiz-app#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}

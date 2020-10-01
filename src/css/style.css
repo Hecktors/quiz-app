@@ -1,0 +1,12 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap'); */
+@import './colors.css';
+@import './basic.css';
+@import './utility.css';
+@import './components/card.css';
+@import './components/header.css';
+@import './components/btn.css';
+@import './components/nav.css';
+@import './components/tag-list.css';
+@import './components/profile-img-name-grid.css';
+@import './components/star.css';
