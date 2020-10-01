@@ -1,14 +1,13 @@
 :root {
   /********** BODY **********/
   --color: #333;
-  --bg-color: #aab0e9;
+  --bg-color: #dba400;
 
   /********** HEADER **********/
   --bg-color-header: #363e8b;
 
   /********** CARD **********/
-  --bg-color-card: #fefffa;
-  --bg-color-card: #f6ffad;
+  --bg-color-card: #f6cb4f;
 
   /********** NAV LINK ACTIVE **********/
   --bg-color-active: rgba(0, 0, 0, 0.3);
@@ -23,4 +22,5 @@
   --bg-color-btn-toggle: #2f855a;
   --bg-color-btn-logout: #c53030;
   --bg-color-btn-submit: #2b6cb0;
+  --bg-color-input: #fff2cc;
 }
