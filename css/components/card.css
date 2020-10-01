@@ -3,7 +3,7 @@
   display: grid;
   align-content: start;
   gap: 30px;
-  padding: 20px 15px;
+  padding: 30px 20px;
 }
 
 /* fix padding-bottom rendering on grid: */
@@ -22,7 +22,6 @@
 
 .card {
   position: relative;
-  border: 1px solid rgba(203, 213, 224);
   padding: 15px;
   background: var(--bg-color-card);
 }
