@@ -12,17 +12,24 @@
   /********** NAV LINK ACTIVE **********/
   --bg-color-active: rgba(0, 0, 0, 0.3);
 
-  /********** TAGS **********/
+  /********** TAG **********/
   --color-tag: #363e8b;
 
   /********** BUTTONS **********/
   --color-btn-toggle: #c6f6d5;
-  --color-btn-logout: #fed7d7;
-  --color-btn-submit: #bee3f8;
   --bg-color-btn-toggle: #2f855a;
+
+  --color-btn-logout: #fed7d7;
   --bg-color-btn-logout: #c53030;
+
+  --color-btn-submit: #bee3f8;
   --bg-color-btn-submit: #2b6cb0;
+
+  /********** INPUT **********/
+
   --bg-color-input: #fff2cc;
 
-  --color-active: #856300;
+  /********** Navigation **********/
+  --color-nav-link: #956f00;
+  --color-nav-link-active: #363e8b;
 }
