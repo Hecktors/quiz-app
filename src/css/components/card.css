@@ -6,27 +6,13 @@
   padding: 30px 20px;
 }
 
-/* fix padding-bottom rendering on grid: */
-/* .card-grid > *:last-child {
-  position: relative;
-} 
-.card-grid > *:last-child:after {
-  content: '';
-  display: block;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  width: 100%;
-  height: 20px;
-} */
-
 .card {
   position: relative;
   padding: 15px;
   background: var(--bg-color-card);
 }
 
-.card svg {
+.card__svg {
   position: absolute;
   z-index: 9;
   right: 12px;
@@ -36,9 +22,10 @@
 
 .card__checkbox {
   display: none;
+  transition: 0.2s ease-in;
 }
 
-.card__checkbox:checked ~ svg .svg__path {
+.card__bookmark--1:checked ~ .card__svg .svg__path {
   fill: var(--bg-color-header);
 }
 
@@ -47,4 +34,13 @@
   letter-spacing: 1.5px;
   text-transform: capitalize;
   font-size: 1.2rem;
+}
+
+.card__answer {
+  opacity: 0;
+  transition: opacity 0.2s ease-in;
+}
+
+.card__button--1:checked ~ .card__answer {
+  opacity: 1;
 }

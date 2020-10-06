@@ -24,13 +24,13 @@
       <section class="card bd-rs bx-sh">
         <label>
           <input
-            checked
             type="checkbox"
-            class="card__checkbox"
+            class="card__checkbox card__bookmark--1"
             id="bookmark-1"
+            checked
           />
           <svg
-            class="svg__path"
+            class="card__svg"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
             fill="#363e8b"
@@ -47,20 +47,26 @@
           </svg>
         </label>
         <div class="card__group">
-          <p class="card__label">question:</p>
+          <h4 class="card__label mb-2">question:</h4>
           <p class="card__question mb-3">
             Lorem ipsum dolor sit amet consectetur adipisicing?
           </p>
         </div>
         <div class="card__group">
-          <p class="card__label">answer:</p>
+          <input
+            type="checkbox"
+            class="card__checkbox card__button--1"
+            id="btn-1"
+          />
+          <h4 class="card__label mb-2">answer:</h4>
           <p class="card__answer">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius,
             earum!
           </p>
         </div>
         <div class="flex-center my-3">
-          <button class="btn btn--toggle">show answer</button>
+          <label class="btn btn--toggle" for="btn-1">show answer</label>
+          <!-- <button class="btn btn--toggle">show answer</button> -->
         </div>
         <div class="tag-container mt-4">
           <span class="tag mr-1">Stadt</span>
