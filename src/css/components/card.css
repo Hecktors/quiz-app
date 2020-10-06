@@ -24,7 +24,7 @@
   display: none;
 }
 
-.card__bookmark--1:checked ~ .card__svg .svg__path {
+.card__bookmark:checked ~ .card__svg .svg__path {
   fill: var(--bg-color-header);
 }
 
@@ -37,9 +37,9 @@
 
 .card__group--answer {
   opacity: 0;
-  transition: opacity 0.2s ease-in;
 }
 
-.card__button--1:checked ~ .card__group--answer {
+.card__button:checked ~ .card__group--answer {
   opacity: 1;
+  transition: opacity 0.5s ease-in;
 }
