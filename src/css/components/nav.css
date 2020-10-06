@@ -10,13 +10,14 @@
   padding: 5px;
 }
 
-.nav__img {
-  width: 50%;
-  width: 30px;
-}
-
 a.active {
   pointer-events: none;
-  background-color: transparent;
-  background-color: var(--bg-color-active);
+}
+
+svg {
+  width: 40%;
+}
+
+.active .svg-path {
+  fill: var(--color-active);
 }
