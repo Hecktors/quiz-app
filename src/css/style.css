@@ -5,8 +5,8 @@
 @import './utility.css';
 @import './components/card.css';
 @import './components/header.css';
-@import './components/btn.css';
-@import './components/nav.css';
+@import './components/button.css';
+@import './components/navigation.css';
 @import './components/tag-list.css';
 @import './components/profile-img-name-grid.css';
 @import './components/star.css';

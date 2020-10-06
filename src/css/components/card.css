@@ -26,12 +26,20 @@
   background: var(--bg-color-card);
 }
 
-.bookmark-img {
+.card svg {
   position: absolute;
   z-index: 9;
   right: 12px;
-  top: -12px;
-  width: 32px;
+  top: -16px;
+  width: 44px;
+}
+
+.card__checkbox {
+  display: none;
+}
+
+.card__checkbox:checked ~ svg .svg__path {
+  fill: var(--bg-color-header);
 }
 
 .card__label {

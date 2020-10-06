@@ -4,20 +4,24 @@
   grid-template-columns: repeat(4, 1fr);
 }
 
-.nav a {
+.nav__link {
   display: grid;
   place-items: center;
   padding: 5px;
 }
 
-a.active {
+.nav__link.active {
   pointer-events: none;
 }
 
-svg {
+.nav__link svg {
   width: 40%;
 }
 
-.active .svg-path {
-  fill: var(--color-active);
+.nav__svg-path {
+  fill: var(--color-nav-link);
+}
+
+.nav__svg-path.active {
+  fill: var(--color-nav-link-active);
 }
