@@ -9,15 +9,18 @@
 } */
 
 .header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  display: grid;
+  place-items: center;
   background-color: var(--bg-color-header);
 }
 
 .header__title {
   font-family: 'Bangers', cursive;
   font-size: 1.8rem;
+  line-height: 1.4;
   letter-spacing: 3px;
   text-transform: uppercase;
   color: #fff;
