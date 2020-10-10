@@ -6,7 +6,6 @@
     <title>Quizzz</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
-
     <link
       href="https://fonts.googleapis.com/css2?family=Bangers&display=swap"
       rel="stylesheet"
@@ -28,7 +27,8 @@
       <span class="star"></span>
     </header>
 
-    <main class="scrolling card-grid">
+    <!-- Home -->
+    <main data-js="home" class="scrolling card-grid">
       <section class="card bd-rs bx-sh">
         <label>
           <input
@@ -127,6 +127,128 @@
         </div>
       </section>
     </main>
+
+    <!-- Bookmarks -->
+    <main data-js="bookmarks" class="scrolling card-grid hidden">
+      <section class="card bd-rs bx-sh">
+        <label>
+          <input
+            type="checkbox"
+            class="card__checkbox card__bookmark"
+            id="bookmark-1"
+            checked
+          />
+          <svg
+            class="card__svg"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="#363e8b"
+          >
+            <path d="M0 0h24v24H0V0z" fill="none" />
+            <path
+              class="svg__path"
+              fill="#fff"
+              d="M17 3H7c-1.1 0-2 .9-2 2v16l7-3 7 3V5c0-1.1-.9-2-2-2z"
+            />
+            <path
+              d="M17 3H7c-1.1 0-2 .9-2 2v16l7-3 7 3V5c0-1.1-.9-2-2-2zm0 15l-5-2.18L7 18V5h10v13z"
+            />
+          </svg>
+        </label>
+        <div class="card__group">
+          <h4 class="card__label mb-2">question:</h4>
+          <p class="card__question mb-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing?
+          </p>
+        </div>
+        <input type="checkbox" class="card__checkbox card__button" id="btn-1" />
+        <div class="card__group card__group--answer">
+          <h4 class="card__label mb-2">answer:</h4>
+          <p class="card__answer">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius,
+            earum!
+          </p>
+        </div>
+        <div class="flex-center my-3">
+          <label class="btn btn--toggle" for="btn-1">show answer</label>
+        </div>
+        <div class="tag-container mt-4">
+          <span class="tag mr-1">Stadt</span>
+          <span class="tag mr-1">Land</span>
+          <span class="tag mr-1">Fluss</span>
+          <span class="tag">Schmalzgebäck</span>
+        </div>
+      </section>
+    </main>
+
+    <!-- Create -->
+
+    <main data-js="create" class="py-4 hidden">
+      <form class="form df fdc">
+        <div class="form__group mb-3">
+          <label for="question" class="form__label mb-1"> add question</label>
+          <textarea
+            class="form__textarea bd bd-rs"
+            name="question"
+            id="question"
+            cols="30"
+            rows="2"
+          ></textarea>
+        </div>
+        <div class="form__group mb-3">
+          <label for="answer" class="form__label mb-1"> add answer</label>
+          <textarea
+            class="form__textarea bd bd-rs"
+            name="answer"
+            id="answer"
+            cols="30"
+            rows="2"
+          ></textarea>
+        </div>
+        <div class="form__group mb-3">
+          <label for="tags" class="form__label mb-1">
+            add tags divided by comma</label
+          >
+          <input
+            type="text"
+            class="form__input bd bd-rs"
+            name="tags"
+            id="tags"
+            placeholder="tag1, tag2, tag3"
+          />
+        </div>
+        <div class="flex-center">
+          <button class="btn btn--submit">submit</button>
+        </div>
+      </form>
+    </main>
+
+    <!-- Profile -->
+    <main data-js="profile" class="df fdc jcsb py-4 hidden">
+      <div class="profile__grid">
+        <div class="profile__img-container">
+          <img
+            src="https://i.pinimg.com/originals/23/de/70/23de7059d5c9ded5838ee1f70b946852.jpg"
+            alt="profile image"
+            class="profile__img"
+          />
+        </div>
+        <div class="profile__name">John Doe</div>
+      </div>
+      <p class="profile-description">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius quia
+        voluptates velit sit nam. Expedita et unde maiores vero saepe.
+      </p>
+      <div class="">
+        <h4 class="mb-2">skills</h4>
+        <span class="tag">Stadt</span>
+        <span class="tag">Schmalzgebäck</span>
+      </div>
+      <div class="flex-center">
+        <button class="btn btn--logout">logout</button>
+      </div>
+    </main>
+
     <nav class="nav">
       <a class="nav__link" aria-disabled="true">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
