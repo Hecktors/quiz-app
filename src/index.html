@@ -30,7 +30,7 @@
   <!-- Main -->
   <main data-js="pages" class="scrolling card-grid">
     <!-- Home -->
-    <section data-js="cards" data-name="home">
+    <section data-js="cards" data-name="home" class="d-none">
       <section class="card bd-rs bx-sh mb-5">
         <label>
           <svg data-js="bookmark" class="card__bookmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
@@ -99,7 +99,7 @@
     </section>
 
     <!-- Bookmarks -->
-    <section data-js="cards" data-name="bookmarks" class="d-none">
+    <section data-name="bookmarks" class="d-none">
       <section class="card bd-rs bx-sh mb-5">
         <label>
           <svg data-js="bookmark" class="card__bookmark marked" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
@@ -135,8 +135,8 @@
     </section>
 
     <!-- Create -->
-    <section data-name="create" class="d-none">
-      <form class="form">
+    <section data-name="create" class="">
+      <form data-js="form" class="form">
         <div class="form__group mb-3">
           <label for="question" class="form__label mb-1"> add question</label>
           <textarea class="form__textarea bd bd-rs" name="question" id="question" cols="30" rows="2"></textarea>
