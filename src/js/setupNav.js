@@ -19,7 +19,9 @@ export default function nav() {
     }
 
     function updateTitle(name) {
-        title.innerText = name
+        title.innerHTML = name === 'quiz-app'
+            ? '<span class="star"></span><span class="star"></span><span class="star"></span>Quizzz!<span class="star"></span><span class="star"></span><span class="star"></span>'
+            : name
     }
 
     function updateMain(targetPageName) {
