@@ -101,6 +101,13 @@
   align-items: center;
 }
 
+.full-height-flex {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 /********** BEHAVIOR **********/
 .scrolling {
   overflow-y: scroll;
@@ -112,4 +119,8 @@
 
 .d-none {
   display: none;
+}
+
+.full-height {
+  height: 100%;
 }

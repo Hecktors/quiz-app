@@ -3,33 +3,64 @@
   --color: #333;
   --bg-color: #dba400;
 
+
   /********** HEADER **********/
+  --color-header: #fff;
   --bg-color-header: #363e8b;
 
   /********** CARD **********/
   --bg-color-card: #f6cb4f;
-
+  
   /********** NAV LINK ACTIVE **********/
   --bg-color-active: rgba(0, 0, 0, 0.3);
-
+  
   /********** TAG **********/
   --color-tag: #363e8b;
-
+  --bd-color-tag: #363e8b;
+  
   /********** BUTTONS **********/
   --color-btn-toggle: #c6f6d5;
   --bg-color-btn-toggle: #2f855a;
-
+  --bd-color-btn-toggle: transparent;
+  
   --color-btn-logout: #fed7d7;
   --bg-color-btn-logout: #c53030;
-
+  --bd-color-btn-logout: transparent;
+  
   --color-btn-submit: #bee3f8;
   --bg-color-btn-submit: #2b6cb0;
+  --bd-color-btn-submit: transparent;
 
+  --color-btn-theme: #c6f6d5;
+  --bg-color-btn-theme: #2f855a;
+  
   /********** INPUT **********/
-
   --bg-color-input: #fff2cc;
-
+  
   /********** Navigation **********/
   --color-nav-link: #956f00;
   --color-nav-link-active: #363e8b;
+}
+
+.dark-mode {
+  /********** BODY **********/
+  --color: #c4c4c4;
+  --bg-color: #000;
+  /********** HEADER **********/
+  --color-header: var(--color);
+  --bg-color-header: #363e8b;
+  --bg-color-header: #11142d;
+  /********** CARD **********/
+  --bg-color-card: #000;
+  --border-color-card: #f6cb4f;
+  /********** TAG **********/
+  --bd-color-tag: transparent;
+  --bg-color-tag: #151837;
+  /********** BUTTONS **********/
+  /* --color-btn-toggle: #2f855a;
+  --bg-color-btn-toggle: transparent;
+  --bd-color-btn-toggle: #2f855a; */
+  /********** INPUT **********/
+  --bg-color-input: transparent;
+  --bg-color-input-focus: #1a1a1a;
 }

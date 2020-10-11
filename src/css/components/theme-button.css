@@ -1,0 +1,11 @@
+.btn-dark {
+    position: absolute;
+    top: 64px;
+    right: 0;
+    border-radius: 10px;
+    padding: 3px 10px;
+    border: none;
+    text-transform: uppercase;
+    color: var(--color-btn-theme);
+    background-color: var(--bg-color-btn-theme);
+}

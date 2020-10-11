@@ -4,5 +4,6 @@
   border-radius: 5px;
   font-weight: bold;
   color: var(--color-tag);
-  border: 1px solid var(--color-tag);
+  border: 1px solid var(--bd-color-tag);
+  background-color: var(--bg-color-tag);
 }
