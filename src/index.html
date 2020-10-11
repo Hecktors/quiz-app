@@ -33,7 +33,6 @@
     <section data-js="cards" data-name="home">
       <section class="card bd-rs bx-sh mb-5">
         <label>
-          <!-- <input type="checkbox" class="card__checkbox card__bookmark" id="bookmark-1" /> -->
           <svg data-js="bookmark" class="card__bookmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
             fill="#363e8b">
             <path d="M0 0h24v24H0V0z" fill="none" />
@@ -47,7 +46,6 @@
             Lorem ipsum dolor sit amet consectetur adipisicing?
           </p>
         </div>
-        <!-- <input type="checkbox" class="card__checkbox card__button" id="btn-1" /> -->
         <div data-js="answer" class="card__group card__group--answer">
           <h4 class="card__label mb-2">answer:</h4>
           <p class="card__answer">
@@ -66,14 +64,10 @@
         </div>
       </section>
 
-    </section>
-
-    <!-- Bookmarks -->
-    <section data-name="bookmarks" class="d-none">
-      <section class="card bd-rs bx-sh">
+      <section class="card bd-rs bx-sh mb-5">
         <label>
-          <input type="checkbox" class="card__checkbox card__bookmark" id="bookmark-1" checked />
-          <svg class="card__svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#363e8b">
+          <svg data-js="bookmark" class="card__bookmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+            fill="#363e8b">
             <path d="M0 0h24v24H0V0z" fill="none" />
             <path class="svg__path" fill="#fff" d="M17 3H7c-1.1 0-2 .9-2 2v16l7-3 7 3V5c0-1.1-.9-2-2-2z" />
             <path d="M17 3H7c-1.1 0-2 .9-2 2v16l7-3 7 3V5c0-1.1-.9-2-2-2zm0 15l-5-2.18L7 18V5h10v13z" />
@@ -85,8 +79,7 @@
             Lorem ipsum dolor sit amet consectetur adipisicing?
           </p>
         </div>
-        <input type="checkbox" class="card__checkbox card__button" id="btn-1" />
-        <div class="card__group card__group--answer">
+        <div data-js="answer" class="card__group card__group--answer">
           <h4 class="card__label mb-2">answer:</h4>
           <p class="card__answer">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius,
@@ -94,7 +87,43 @@
           </p>
         </div>
         <div class="flex-center my-3">
-          <label class="btn btn--toggle" for="btn-1">show answer</label>
+          <button data-js="answer-btn" class="btn btn--toggle" for="btn-1">show answer</button>
+        </div>
+        <div class="tag-container mt-4">
+          <span class="tag mr-1">Stadt</span>
+          <span class="tag mr-1">Land</span>
+          <span class="tag mr-1">Fluss</span>
+          <span class="tag">Schmalzgebäck</span>
+        </div>
+      </section>
+    </section>
+
+    <!-- Bookmarks -->
+    <section data-name="bookmarks" class="d-none">
+      <section class="card bd-rs bx-sh mb-5">
+        <label>
+          <svg data-js="bookmark" class="card__bookmark marked" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+            fill="#363e8b">
+            <path d="M0 0h24v24H0V0z" fill="none" />
+            <path class="svg__path" fill="#fff" d="M17 3H7c-1.1 0-2 .9-2 2v16l7-3 7 3V5c0-1.1-.9-2-2-2z" />
+            <path d="M17 3H7c-1.1 0-2 .9-2 2v16l7-3 7 3V5c0-1.1-.9-2-2-2zm0 15l-5-2.18L7 18V5h10v13z" />
+          </svg>
+        </label>
+        <div class="card__group">
+          <h4 class="card__label mb-2">question:</h4>
+          <p class="card__question mb-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing?
+          </p>
+        </div>
+        <div data-js="answer" class="card__group card__group--answer">
+          <h4 class="card__label mb-2">answer:</h4>
+          <p class="card__answer">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius,
+            earum!
+          </p>
+        </div>
+        <div class="flex-center my-3">
+          <button data-js="answer-btn" class="btn btn--toggle" for="btn-1">show answer</button>
         </div>
         <div class="tag-container mt-4">
           <span class="tag mr-1">Stadt</span>

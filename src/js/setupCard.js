@@ -23,6 +23,8 @@ export default function card() {
     function addAnswerBtnLogic(answerBtn, answer) {
         answerBtn.addEventListener('click', (event) => {
             answer.classList.toggle('full-opacity')
+            const oldLabel = event.target.innerText.toLowerCase()
+            event.target.innerText = oldLabel === 'show answer' ? 'hide answer' : 'show answer'
         })
     }
 }

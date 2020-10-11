@@ -30,7 +30,6 @@ export default function nav() {
 
     function updateNavItems(clickedBtn) {
         navItems.forEach(navItem => {
-            console.log(clickedBtn.dataset.name, navItem.dataset.name)
             navItem.classList.toggle('active', navItem.dataset.name === clickedBtn.dataset.name)
         })
     }

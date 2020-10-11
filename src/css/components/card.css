@@ -20,16 +20,9 @@
   width: 44px;
 }
 
-.card__bookmark.marked .svg__path{
+.marked.card__bookmark .svg__path{
   fill: var(--bg-color-header);
-
 }
-/* .card__checkbox {
-  display: none;
-}
-
-.card__bookmark:checked ~ .card__svg .svg__path {
-} */
 
 .card__label {
   font-family: 'Bangers', cursive;
@@ -42,7 +35,3 @@
   opacity: 0;
   transition: opacity 0.2s ease-in;
 }
-
-/* .card__button:checked ~ .card__group--answer {
-  opacity: 1;
-} */
