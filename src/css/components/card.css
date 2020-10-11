@@ -12,7 +12,7 @@
   background: var(--bg-color-card);
 }
 
-.card__svg {
+.card__bookmark {
   position: absolute;
   z-index: 9;
   right: 12px;
@@ -20,13 +20,16 @@
   width: 44px;
 }
 
-.card__checkbox {
+.card__bookmark.marked .svg__path{
+  fill: var(--bg-color-header);
+
+}
+/* .card__checkbox {
   display: none;
 }
 
 .card__bookmark:checked ~ .card__svg .svg__path {
-  fill: var(--bg-color-header);
-}
+} */
 
 .card__label {
   font-family: 'Bangers', cursive;
@@ -39,7 +42,7 @@
   opacity: 0;
 }
 
-.card__button:checked ~ .card__group--answer {
+/* .card__button:checked ~ .card__group--answer {
   opacity: 1;
   transition: opacity 0.5s ease-in;
-}
+} */
