@@ -1,19 +1,28 @@
-import { getDataJsAllChildren } from './lib'
+import { getDataJsAllChildren, getDataJsInCompontent } from './lib'
 
 export default function card() {
     const cards = getDataJsAllChildren('cards')
 
     cards.forEach(addCardLogic)
-}
 
-function addCardLogic(card) {
-    const bookmark = card.querySelector('[data-js="bookmark"]')
+    function addCardLogic(card) {
+        const bookmark = getDataJsInCompontent(card, 'bookmark')
+        const answerBtn = getDataJsInCompontent(card, 'answer-btn')
+        const answer = getDataJsInCompontent(card, 'answer')
 
-    addBookmarkLogic(bookmark)
-}
+        addBookmarkLogic(bookmark)
+        addAnswerBtnLogic(answerBtn, answer)
+    }
 
-function addBookmarkLogic(bookmark) {
-    bookmark.addEventListener('click', (event) => {
-        event.currentTarget.classList.toggle("marked")
-    })
+    function addBookmarkLogic(bookmark) {
+        bookmark.addEventListener('click', (event) => {
+            event.currentTarget.classList.toggle("marked")
+        })
+    }
+
+    function addAnswerBtnLogic(answerBtn, answer) {
+        answerBtn.addEventListener('click', (event) => {
+            answer.classList.toggle('full-opacity')
+        })
+    }
 }

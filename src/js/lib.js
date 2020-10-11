@@ -5,3 +5,7 @@ export function getDataJs(name) {
 export function getDataJsAllChildren(name) {
     return document.querySelectorAll(`[data-js="${name}"] > *`)
 }
+
+export function getDataJsInCompontent(component, name) {
+    return component.querySelector(`[data-js="${name}"]`)
+}

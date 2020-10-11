@@ -40,9 +40,9 @@
 
 .card__group--answer {
   opacity: 0;
+  transition: opacity 0.2s ease-in;
 }
 
 /* .card__button:checked ~ .card__group--answer {
   opacity: 1;
-  transition: opacity 0.5s ease-in;
 } */

@@ -106,12 +106,10 @@
   overflow-y: scroll;
 }
 
-.hide {
-  visibility: hidden;
+.full-opacity {
+  opacity: 1 !important;
 }
 
 .d-none {
   display: none;
 }
-
-
