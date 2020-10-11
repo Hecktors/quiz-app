@@ -17,11 +17,11 @@
   width: 40px;
 }
 
-.nav__svg-path {
+.nav__btn .svg-path {
   fill: var(--color-nav-link);
 }
 
-.nav__svg-path.active {
+.nav__btn.active .svg-path {
   fill: var(--color-nav-link-active);
 }
 

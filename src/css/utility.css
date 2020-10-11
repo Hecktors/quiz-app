@@ -110,4 +110,8 @@
   visibility: hidden;
 }
 
+.d-none {
+  display: none;
+}
+
 
