@@ -1,6 +1,9 @@
 .star {
   height: 30px;
   width: 30px;
+  margin-right: -3px;
+  margin-left: -3px;
+  margin-bottom: -3px;
   display: inline-block;
   background-color: gold;
   transform: skewX(-10deg);
