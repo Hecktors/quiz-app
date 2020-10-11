@@ -2,7 +2,6 @@
   display: block;
   min-width: 150px;
   padding: 10px 20px;
-  border: none;
   border-radius: 20px;
   font-size: 0.9rem;
   font-weight: bold;
@@ -12,14 +11,17 @@
 .btn--toggle {
   color: var(--color-btn-toggle);
   background-color: var(--bg-color-btn-toggle);
+  border-color: var(--bd-color-btn-toggle);
 }
 
 .btn--submit {
   color: var(--color-btn-submit);
   background-color: var(--bg-color-btn-submit);
+  border-color: var(--bd-color-btn-submit);
 }
 
 .btn--logout {
   color: var(--color-btn-logout);
   background-color: var(--bg-color-btn-logout);
+  border-color: var(--bd-color-btn-logout);
 }

@@ -6,6 +6,7 @@
 @import './components/card.css';
 @import './components/header.css';
 @import './components/button.css';
+@import './components/theme-button.css';
 @import './components/navigation.css';
 @import './components/tag-list.css';
 @import './components/profile-img-name-grid.css';
